@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navigation{
+    font-size: 60px;
+    line-height: 60px;
+    word-spacing: 4px;
+}
+.navigation-Main p{
+    width: 337px;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .Illustration img {
+      width: 380px;
+     position: absolute;
+     left: 0;
+    }
+    .amazon{
+       position: relative;
+       top: 300px;
+    }
+  }
